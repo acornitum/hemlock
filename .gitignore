@@ -1,0 +1,24 @@
+# Ignore everything by default
+*
+
+# Allow directories so the rules below can match inside them
+!*/
+
+# KiCad project files
+!*.kicad_pro
+!*.kicad_sch
+!*.kicad_pcb
+
+# Project-local libraries (if added later)
+!sym-lib-table
+!fp-lib-table
+!*.kicad_sym
+!*.pretty/
+!*.pretty/**
+!*.kicad_mod
+
+# Keep this file
+!.gitignore
+
+# Never track backups, even though directories are allowed above
+stopwatch-point-3-backups/
